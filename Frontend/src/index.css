@@ -1,0 +1,15 @@
+@import "tailwindcss";
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .Toastify__toast {
+  min-width: 350px;
+  max-width: 500px; /* or more, adjust as needed */
+  font-size: 14px;
+}
+  
